@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    background: linear-gradient(rgb(141, 74, 74),beige);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+
+
+}
+
+/* @keyframes anim {
+    from{
+        background-color: brown;
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+    }
+} */
+
+/* @keyframes anim{
+    0%{top: 0; left: 0;} 
+    25%{top: 0; left: 500px; background-color: cadetblue;border-radius: 40%;}
+    50%{top: 500px; left:500px; border-radius: 50%; background-color: rgb(223, 165, 223);}
+    75%{top: 500px; left: 0; background-color: rgb(106, 106, 168);}
+    100%{top: 0; left: 0;}
+
+} */
+
+@keyframes anim{
+    0%{top: 0; left: 0;background: linear-gradient(rgb(141, 74, 74),beige);} 
+    25%{top: 0; left: 500px; background:linear-gradient(45deg,rgb(126, 38, 53), rgb(85, 85, 199));border-radius: 40%;}
+    50%{top: 500px; left:500px; border-radius: 50%; background:linear-gradient(90deg,rgb(33, 211, 143),rgb(236, 129, 6));}
+    75%{top: 500px; left: 0; background:linear-gradient(180deg, pink,rgb(8, 171, 221)); border-radius: 35%;}
+    100%{top: 0; left: 0;}
+
+}

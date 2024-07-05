@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    margin: 100px;
+    border: none;
+    background-color: brown;
+    color: antiquewhite;
+    padding: 10px 40px;
+    border-radius: 6px;
+    transition: 2s;
+}
+button:hover{
+    background-color: rgb(233, 135, 8);
+    scale: 1.5;
+    /* transform:skew(45deg); */
+    /* transform:scaleX(1.5); */
+    /* transform: translate(50px,50px);  */
+    transform: rotate(360deg);
+    letter-spacing: 8px;
+
+}
